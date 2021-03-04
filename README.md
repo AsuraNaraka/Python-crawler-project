@@ -7,9 +7,9 @@
 - 项目说明：
   - 基于 Requests 库发起的 post 请求获取 Ajax 动态加载的企业信息的全栈数据
 
-<br>
-### 网易新闻中的新闻数据（标题和内容）
-- [wangyi.py 源文件直达链接](https://github.com/AsuraNaraka/Python-crawler-project/blob/c7ef963df95f1a14f9cdb8c56305dacbd0568bb9/wangyiPro/wangyiPro/spiders/wangyi.py)
+
+###  网易新闻中的新闻数据（标题和内容）
+-[wangyi.py 源文件直达链接](https://github.com/AsuraNaraka/Python-crawler-project/blob/c7ef963df95f1a14f9cdb8c56305dacbd0568bb9/wangyiPro/wangyiPro/spiders/wangyi.py)
 - 项目说明：
   - 基于爬虫框架 scrapy 对网易新闻下的：国内、国际、军事、航空、无人机进行标题和内容的获取
 
