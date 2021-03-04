@@ -39,3 +39,8 @@ for id in id_list:
     detail_json = requests.post(url=post_url, headers=headers, data=data).json()
     print(detail_json)
     all_data_list.append(detail_json)
+
+# 持久化存储 all_data_list
+fp = open('./allData.json', 'w', encoding='UTF-8')
+json.dump(all_data_list, fp=fp, ensure_ascii=False)
+print('OVER!!')
